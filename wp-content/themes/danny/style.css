@@ -1,0 +1,226 @@
+/*
+Theme Name: Custom Theme - HoogleyB
+Theme URI: https://hoogleyb.com/
+Author: Danny Tran
+Author URI: https://hoogleyb.com/
+Description: Custom theme made for hoogleyb.com
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*==================
+**    Text
+**================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    color: #39598c;
+}
+
+/*==================
+**    Buttons
+**================*/
+.btn-social {
+    background-color: #39598c;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    color: white;
+    transition: color, background-color 0.5s;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;  
+    font-size: 14px;
+}
+
+.btn-social:hover {
+    color: #ededed;
+    background-color: #2f4b77;
+}
+
+/*==================
+**   TOP BAR
+**================*/
+.top-bar {
+    background: url(https://i.imgur.com/lBerw3n.png),
+                #2f4b77;
+    color: white;
+    padding: 2px;
+}
+
+.top-bar a {
+    color: white;
+}
+
+.top-bar i {
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+
+/*====================
+**    Nav Bar
+**==================*/
+.nav-header {
+    webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,1);
+}
+
+.bg-blue {
+    background: url(https://i.imgur.com/lBerw3n.png),
+                #39598c;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.nav-item a {
+    transition: color 0.2s;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    padding: 0;
+}
+
+.dropdown-menu:last-child {
+    right: 0;
+}
+
+.dropdown-menu,
+.dropdown-menu a  {
+    background: url(https://i.imgur.com/lBerw3n.png),
+                #39598c;
+    color: #fff;
+    transition: all 0.5s;
+    overflow: auto;
+    border: none;
+}
+
+.dropdown-menu a:hover,  .dropdown-menu .active {
+    background: url(https://i.imgur.com/lBerw3n.png),
+                #39598c;
+    color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/*=====================
+**    Hamburger Icon
+**===================*/
+.navToggleBtn {
+	height: 25px;
+	height: 25px;
+	cursor: pointer;
+	margin-top: -5px;
+}
+
+.navToggleBtn span {
+	padding-left: 30px;
+}
+
+.hamburger-icon {
+	position: relative;
+	background: #fff;
+	width: 25px;
+	height: 2px;
+	top: 50%;
+	bottom: 50%;
+	cursor: pointer;
+}
+
+.hamburger-icon:before, .hamburger-icon:after {
+	content: "";
+	position: absolute;
+	background: #fff;
+	top: 0;
+	left: 0;
+	width: 25px;
+	height: 2px;
+	background: #fff;
+}
+
+.hamburger-icon:before {
+	margin-top: -8px;
+}
+
+.hamburger-icon:after {
+	margin-top: 8px;
+}
+
+.nav-toggle-active.hamburger-icon:before {
+	display: none;
+}
+
+.nav-toggle-active.hamburger-icon:before, .nav-toggle-active.hamburger-icon:after {
+	margin: 0;
+	transform: rotate(90deg);
+	transition: all .3s ease 0s;
+}
+
+.nav-toggle-active.hamburger-icon {
+	transform: rotate(45deg);
+}
+
+/*====================
+**    Body
+**==================*/
+.body {
+    padding-top: 100px;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+/*=====================
+**    Cards
+**===================*/
+.card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 0;
+    border: none;
+    webkit-box-shadow: 0px 0px 15px 0px rgba(166,166,166,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(166,166,166,1);
+    box-shadow: 0px 0px 15px 0px rgba(166,166,166,1);
+}
+
+.card-title > a {
+    color: #39598c;
+}
+
+.card-title > h1 {
+    color: #39598c;
+}
+
+.badge-primary a {
+    color: #fff;
+}
+
+.card-block {
+    padding: 20px;
+}
+
+.card-img-top img {
+    max-height: 300px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
